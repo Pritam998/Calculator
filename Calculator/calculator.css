@@ -1,0 +1,102 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(diagonally , rgb(251, 251, 119) , rgb(151, 247, 167));
+}
+
+.main{
+    display: grid;
+    height: 500px;
+    width: 400px;
+    border: solid;
+    border-color: rgb(255, 105, 155);
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    margin-top: 100px;
+    background-color: rgb(164, 164, 164);
+}
+
+.screen{
+    width: 400px;
+    height: 230px;
+    outline: solid 30px rgb(64, 185, 255);
+    border-radius: 10px;
+    padding: 5px;
+    
+}
+
+.btn{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    padding: 0px;
+    outline: solid 30px rgb(64, 185, 255);
+    border-radius: 10px;
+    background-color: rgb(255, 188, 117);
+}
+
+button{
+    height: 80px;
+    width: 99px;
+    font-size: xx-large;
+    border: solid;
+    border-radius: 8px;
+    background-color: rgb(172, 255, 226);
+}
+.screen_que{
+    padding: 10px;
+    font-size: 30px;
+    overflow: auto;
+    scrollbar-width: none;
+}
+
+.screen_ans{
+    width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    white-space: nowrap;
+    text-align: right;
+    font-size: 30px;
+}
+
+.screen_operation{
+    padding: 2px;
+    font-size: 30px;
+}
+
+
+.screen_que_opt{
+    padding: 6px;
+    padding-right: 5px;
+    position: relative;
+    font-size: 30px;
+    left: 9px;
+    right: 2px;
+    overflow: auto;
+    scrollbar-width: none;
+}
+
+.main{
+    border: 2px solid black;
+    
+}
+.btn button:active{
+    background-color: aquamarine;
+}
+
+.tech{
+    position: relative;
+    left: 50px;
+    top: 25px;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+}
